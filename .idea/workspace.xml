@@ -1,212 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="54f90cb1-7c73-4a7d-968c-d8677c9d5381" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/css/framework-rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/css/framework.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/css/icons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/css/night-mode.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/css/style-rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/fonts/Brand-Icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/fonts/Brand-Icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/fonts/Brand-Icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/fonts/Feather-Icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/fonts/Feather-Icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/fonts/Feather-Icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/fonts/Gotham-Rounded-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/fonts/Gotham-Rounded-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/fonts/Gotham-Rounded.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/fonts/Line-Awesome.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/fonts/Line-Awesome.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/fonts/Line-Awesome.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/fonts/Material-Icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/fonts/Material-Icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/fonts/Material-Icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/fonts/unicons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/fonts/unicons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/fonts/unicons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/fonts/unicons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/fonts/unicons.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/avatars/avatar-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/avatars/avatar-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/avatars/avatar-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/avatars/avatar-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/avatars/home-profile.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/avatars/placeholder.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/bg-pricing.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/bg-shapes/bg-shape.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/bg-shapes/course-dhashboard-bg-dark-rtl.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/bg-shapes/course-dhashboard-bg-dark.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/bg-shapes/course-dhashboard-bg-rtl.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/bg-shapes/course-dhashboard-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/bg-shapes/tab-border-left-dark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/bg-shapes/tab-border-left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/bg-shapes/tab-border-right-dark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/bg-shapes/tab-border-right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/blog/img-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/blog/img-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/blog/img-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/blog/img-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/blog/img-8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/book/book-description.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/book/book.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/book/css3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/book/html5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/book/php.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/book/vue-2-basics-.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/book/win8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/course/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/course/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/course/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/course/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/course/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/course/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/course/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/course/8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/course/9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/course/p-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/course/p-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/course/p-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/admin/book.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/admin/courses.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/admin/dashboard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/admin/login.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/admin/setting.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/admin/students.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/bg-pricing-page.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/d-admin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/d-default.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/d-graduation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/d-horizontal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/d-sales.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/d-student.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/default/blog-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/default/blog-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/default/blog-card.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/default/blog-single-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/default/blog-single-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/default/book-description.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/default/book.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/default/course-grid.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/default/course-introduction.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/default/course-lesson-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/default/course-lesson-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/default/course-lesson-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/default/course-path-levels.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/default/course-path.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/default/course-resume.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/default/courses-list.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/default/dashboard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/default/development-compounents.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/default/development-elements.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/default/development-icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/default/episodes-video.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/default/episodes.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/default/form-login.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/default/form-modurn-login.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/default/form-modurn-register.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/default/form-register.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/default/page-comming-soon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/default/page-faq.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/default/page-maintence.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/default/page-pricing.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/default/page-term.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/default/privecy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/default/profile-edit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/default/profile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/demo-home-icon-fast.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/demo-home-icon-ready.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/demo-home-icon-responsive.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/demo-home-icon-ui.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/elements/dark.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/elements/image.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/elements/light.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/elements/slider1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/elements/slider2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/elements/slider3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/elements/slider4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/feather-icons.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/fontawesome-icons.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/home-hero-bg-after.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/home-labtop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/horizontal/Privacy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/horizontal/blog-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/horizontal/blog-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/horizontal/blog-card.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/horizontal/blog-single.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/horizontal/book-description.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/horizontal/book.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/horizontal/course-grid.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/horizontal/course-intro-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/horizontal/course-intro-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/horizontal/course-intro-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/horizontal/course-path-levels.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/horizontal/course-path.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/horizontal/courses-list.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/horizontal/dashboard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/horizontal/development-compounents.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/horizontal/development-elements.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/horizontal/development-icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/horizontal/form-login.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/horizontal/form-modurn-login.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/horizontal/form-modurn-register.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/horizontal/form-register.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/horizontal/page-comming-soon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/horizontal/page-contact.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/horizontal/page-maintence.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/horizontal/page-pricing.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/horizontal/page-term.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/horizontal/profile-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/horizontal/profile-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/horizontal/profile-edit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/horizontal/takecourse-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/horizontal/takecourse-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/horizontal/takecourse-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/line-awesome-icons.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/demos/material-icons.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/episodes/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/episodes/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/episodes/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/episodes/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/episodes/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/episodes/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/feature-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/feature.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/help_background.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/home-hero-rtl.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/home-hero.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/icon-join.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/icon-play.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/logo-dark.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/images/maintenance.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/js/bootstrap-select.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/js/chart-custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/js/chart.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/js/framework.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/js/jquery-3.3.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/js/jquery.validate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/js/mmenu.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/js/simplebar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/syntax-highlighter/scripts/shBrushJScript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/syntax-highlighter/scripts/shBrushXml.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/syntax-highlighter/scripts/shCore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/syntax-highlighter/styles/shCore.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset_admin/syntax-highlighter/styles/shCoreMidnight.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/e_learning_system/admin/course_upload.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layout/app_admin.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/GeneralFunctionController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Course/CourseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Course/CourseController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Pages/PagesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Pages/PagesController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/Course.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Course.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Lesson.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Lesson.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Section.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Section.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_19_080458_create_lessons_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_11_13_165556_create_lessons_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_26_112450_create_courses_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_10_26_112450_create_courses_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_11_13_165555_create_sections_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_11_13_165555_create_sections_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/seeders/CourseTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/CourseTableSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/e_learning_system/student/lesson_detail.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/e_learning_system/student/lesson_detail.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,9 +38,7 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -356,28 +177,35 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/asset_admin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Http/Controllers" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\wolo_application\public\asset_admin" />
-      <recent name="C:\xampp\htdocs\wolo_application\resources\views\e_learning_system\student" />
-      <recent name="C:\xampp\htdocs\wolo_application\resources\views\layout" />
-      <recent name="C:\xampp\htdocs\wolo_application\resources\views\home" />
-      <recent name="C:\xampp\htdocs\wolo_application\public" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\wolo_application\public\asset_admin" />
       <recent name="C:\xampp\htdocs\wolo_application\resources\views" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\projects\wolosys\app\Http\Controllers" />
+      <recent name="C:\xampp\htdocs\projects\wolosys" />
+      <recent name="C:\xampp\htdocs\wolo_application\public\asset_admin" />
+      <recent name="C:\xampp\htdocs\wolo_application\resources\views\e_learning_system\student" />
+      <recent name="C:\xampp\htdocs\wolo_application\resources\views\layout" />
     </key>
   </component>
   <component name="RunManager">
@@ -386,6 +214,7 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -417,11 +246,23 @@
       <workItem from="1604244954379" duration="102000" />
       <workItem from="1604245090356" duration="641000" />
       <workItem from="1604264760071" duration="595000" />
+      <workItem from="1605483732773" duration="4528000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
