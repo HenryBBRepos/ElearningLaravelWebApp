@@ -33,7 +33,7 @@
 
         <div class="card-body">
 
-        <form method="POST" action="{{url('store')}}">
+        <form method="POST" action="{{url('store')}}" enctype="multipart/form-data">
             @csrf
             <ul class="uk-switcher uk-margin" id="course-edit-tab">
                 <li>
@@ -151,65 +151,59 @@
                                             </li>
                                             <li>
                                                 <div class="sec-list-item">
-                                                <div  class="col-md-8">
-                                                            <input type='text' name="lesson_one" class='video_upload uk-input' placeholder='Enter lesson'>&nbsp &nbsp &nbsp &nbsp
-                                                            
-                                                        </div>
+                                                    <div  class="col-md-8">
+                                                        <input type='text' name="lesson_one" class='video_upload uk-input' placeholder='Enter lesson'>&nbsp &nbsp &nbsp &nbsp
+                                                                
+                                                    </div>
                                                     <div>
                                                         <div class="btn-act">
+                                                            <label class="custom-file-upload">
+                                                                <input type='file' name="video_one" class='uk-input'>
+                                                                Attach Video
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="sec-list-item">
+                                                    <div  class="col-md-8">
+                                                        <input type='text' name="lesson_two" class='video_upload uk-input' placeholder='Enter lesson'>&nbsp &nbsp &nbsp &nbsp        
+                                                    </div>
+                                                <div>
+                                                    <div class="btn-act">
                                                         <label class="custom-file-upload">
-                                                            <input type='file' name="video_one" class='uk-input'>
+                                                            <input type='file' name="video_two" class='uk-input'>
                                                             Attach Video
                                                         </label>
-                                                        </div>
                                                     </div>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div class="sec-list-item">
-                                                <div  class="col-md-8">
-                                                            <input type='text' name="lesson_two" class='video_upload uk-input' placeholder='Enter lesson'>&nbsp &nbsp &nbsp &nbsp
-                                                            
-                                                        </div>
-                                                    <div>
-                                                        <div class="btn-act">
-                                                        <button class="custom-file-upload">
-                                                            <input type='file'  name="video_two" class='uk-input '>
+                                                    <div  class="col-md-8">
+                                                        <input type='text'  name="lesson_three" class="video_upload" class='uk-input' placeholder='Enter lesson'>&nbsp &nbsp &nbsp &nbsp
+                                                                
+                                                    </div>
+                                                    <div class="btn-act">
+                                                        <label class="custom-file-upload">
+                                                            <input type='file' name="video_three" class='uk-input'>
                                                             Attach Video
-                                                            </button>
-                                                        </div>
+                                                        </label>
                                                     </div>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div class="sec-list-item">
-                                                <div  class="col-md-8">
-                                                            <input type='text'  name="lesson_three" class="video_upload" class='uk-input' placeholder='Enter lesson'>&nbsp &nbsp &nbsp &nbsp
-                                                            
-                                                        </div>
-                                                    <div>
-                                                        <div class="btn-act">
-                                                        <button class="custom-file-upload">
-                                                            <input type='file'  name="video_three" class='uk-input '>
-                                                            Attach Video
-                                                            </button>
-                                                        </div>
+                                                    <div  class="col-md-8">
+                                                        <input type='text' name="lesson_four" class="video_upload" class='uk-input' placeholder='Enter lesson'>&nbsp &nbsp &nbsp &nbsp
+                                                                
                                                     </div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="sec-list-item">
-                                                <div  class="col-md-8">
-                                                            <input type='text' name="lesson_four" class="video_upload" class='uk-input' placeholder='Enter lesson'>&nbsp &nbsp &nbsp &nbsp
-                                                            
-                                                        </div>
-                                                    <div>
-                                                        <div class="btn-act">
-                                                        <button class="custom-file-upload">
-                                                            <input type='file'  name="video_four" class='uk-input '>
+                                                    <div class="btn-act">
+                                                        <label class="custom-file-upload">
+                                                            <input type='file' name="video_four" class='uk-input'>
                                                             Attach Video
-                                                            </button>
-                                                        </div>
+                                                        </label>
                                                     </div>
                                                 </div>
                                             </li>
@@ -219,13 +213,11 @@
                                                             <input type='text'  name="lesson_five" class="video_upload" class='uk-input' placeholder='Enter lesson'>&nbsp &nbsp &nbsp &nbsp
                                                             
                                                         </div>
-                                                    <div>
                                                         <div class="btn-act">
-                                                        <button class="custom-file-upload">
-                                                            <input type='file'  name="video_five" class='uk-input '>
+                                                        <label class="custom-file-upload">
+                                                            <input type='file' name="video_five" class='uk-input'>
                                                             Attach Video
-                                                            </button>
-                                                        </div>
+                                                        </label>
                                                     </div>
                                                 </div>
                                             </li>
@@ -254,13 +246,11 @@
                                                             <input type='text'  name="lesson_six" class="video_upload" class='uk-input' placeholder='Enter lesson'>&nbsp &nbsp &nbsp &nbsp
                                                             
                                                         </div>
-                                                    <div>
                                                         <div class="btn-act">
-                                                        <button class="custom-file-upload">
-                                                            <input type='file'  name="video_six" class='uk-input '>
+                                                        <label class="custom-file-upload">
+                                                            <input type='file' name="video_six" class='uk-input'>
                                                             Attach Video
-                                                            </button>
-                                                        </div>
+                                                        </label>
                                                     </div>
                                                 </div>
                                             </li>
@@ -270,13 +260,11 @@
                                                             <input type='text'  name="lesson_seven" class="video_upload" class='uk-input' placeholder='Enter lesson'>&nbsp &nbsp &nbsp &nbsp
                                                             
                                                         </div>
-                                                    <div>
                                                         <div class="btn-act">
-                                                        <button class="custom-file-upload">
-                                                            <input type='file'  name="video_seven" class='uk-input '>
+                                                        <label class="custom-file-upload">
+                                                            <input type='file' name="video_seven" class='uk-input'>
                                                             Attach Video
-                                                            </button>
-                                                        </div>
+                                                        </label>
                                                     </div>
                                                 </div>
                                             </li>
@@ -286,13 +274,11 @@
                                                             <input type='text'  name="lesson_eight" class="video_upload" class='uk-input' placeholder='Enter lesson'>&nbsp &nbsp &nbsp &nbsp
                                                             
                                                         </div>
-                                                    <div>
                                                         <div class="btn-act">
-                                                        <button class="custom-file-upload">
-                                                            <input type='file'  name="video_eight" class='uk-input '>
+                                                        <label class="custom-file-upload">
+                                                            <input type='file' name="video_eight" class='uk-input'>
                                                             Attach Video
-                                                            </button>
-                                                        </div>
+                                                        </label>
                                                     </div>
                                                 </div>
                                             </li>
@@ -302,13 +288,11 @@
                                                             <input type='text'  name="lesson_nine" class="video_upload" class='uk-input' placeholder='Enter lesson'>&nbsp &nbsp &nbsp &nbsp
                                                             
                                                         </div>
-                                                    <div>
                                                         <div class="btn-act">
-                                                        <button class="custom-file-upload">
-                                                            <input type='file'  name="video_nine" class='uk-input '>
+                                                        <label class="custom-file-upload">
+                                                            <input type='file' name="video_nine" class='uk-input'>
                                                             Attach Video
-                                                            </button>
-                                                        </div>
+                                                        </label>
                                                     </div>
                                                 </div>
                                             </li>
@@ -318,13 +302,11 @@
                                                             <input type='text'  name="lesson_ten" class="video_upload" class='uk-input' placeholder='Enter lesson'>&nbsp &nbsp &nbsp &nbsp
                                                             
                                                         </div>
-                                                    <div>
                                                         <div class="btn-act">
-                                                        <button class="custom-file-upload">
-                                                            <input type='file'  name="video_ten" class='uk-input '>
+                                                        <label class="custom-file-upload">
+                                                            <input type='file' name="video_ten" class='uk-input'>
                                                             Attach Video
-                                                            </button>
-                                                        </div>
+                                                        </label>
                                                     </div>
                                                 </div>
                                             </li>
@@ -352,13 +334,11 @@
                                                             <input type='text'  name="lesson_eleven" class="video_upload" class='uk-input' placeholder='Enter lesson'>&nbsp &nbsp &nbsp &nbsp
                                                             
                                                         </div>
-                                                    <div>
                                                         <div class="btn-act">
-                                                        <button class="custom-file-upload">
-                                                            <input type='file'  name="video_eleven" class='uk-input '>
+                                                        <label class="custom-file-upload">
+                                                            <input type='file' name="video_eleven" class='uk-input'>
                                                             Attach Video
-                                                            </button>
-                                                        </div>
+                                                        </label>
                                                     </div>
                                                 </div>
                                             </li>
@@ -368,61 +348,53 @@
                                                             <input type='text'  name="lesson_twelve" class="video_upload" class='uk-input' placeholder='Enter lesson'>&nbsp &nbsp &nbsp &nbsp
                                                             
                                                         </div>
-                                                    <div>
                                                         <div class="btn-act">
-                                                        <button class="custom-file-upload">
-                                                            <input type='file'  name="video_twelve" class='uk-input '>
+                                                        <label class="custom-file-upload">
+                                                            <input type='file' name="video_twelve" class='uk-input'>
                                                             Attach Video
-                                                            </button>
-                                                        </div>
+                                                        </label>
                                                     </div>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div class="sec-list-item">
                                                 <div  class="col-md-8">
-                                                            <input type='text'  name="lesson_thirtheen" class="video_upload" class='uk-input' placeholder='Enter lesson'>&nbsp &nbsp &nbsp &nbsp
+                                                            <input type='text'  name="lesson_thirteen" class="video_upload" class='uk-input' placeholder='Enter lesson'>&nbsp &nbsp &nbsp &nbsp
                                                             
                                                         </div>
-                                                    <div>
                                                         <div class="btn-act">
-                                                        <button class="custom-file-upload">
-                                                            <input type='file'  name="video_thirtheen" class='uk-input '>
+                                                        <label class="custom-file-upload">
+                                                            <input type='file' name="video_thirteen" class='uk-input'>
                                                             Attach Video
-                                                            </button>
-                                                        </div>
+                                                        </label>
                                                     </div>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div class="sec-list-item">
                                                 <div  class="col-md-8">
-                                                            <input type='text'  name="lesson_foutheen" class="video_upload" class='uk-input' placeholder='Enter lesson'>&nbsp &nbsp &nbsp &nbsp
+                                                            <input type='text'  name="lesson_fourteen" class="video_upload" class='uk-input' placeholder='Enter lesson'>&nbsp &nbsp &nbsp &nbsp
                                                             
                                                         </div>
-                                                    <div>
                                                         <div class="btn-act">
-                                                        <button class="custom-file-upload">
-                                                            <input type='file'  name="video_fourtheen" class='uk-input '>
+                                                        <label class="custom-file-upload">
+                                                            <input type='file' name="video_fourteen" class='uk-input'>
                                                             Attach Video
-                                                            </button>
-                                                        </div>
+                                                        </label>
                                                     </div>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div class="sec-list-item">
                                                 <div  class="col-md-8">
-                                                            <input type='text'  name="lesson_fiftheen" class="video_upload" class='uk-input' placeholder='Enter lesson'>&nbsp &nbsp &nbsp &nbsp
+                                                            <input type='text'  name="lesson_fifteen" class="video_upload" class='uk-input' placeholder='Enter lesson'>&nbsp &nbsp &nbsp &nbsp
                                                             
                                                         </div>
-                                                    <div>
                                                         <div class="btn-act">
-                                                        <button class="custom-file-upload">
-                                                            <input type='file'  name="video_fiftheen" class='uk-input '>
+                                                        <label class="custom-file-upload">
+                                                            <input type='file' name="video_fifteen" class='uk-input'>
                                                             Attach Video
-                                                            </button>
-                                                        </div>
+                                                        </label>
                                                     </div>
                                                 </div>
                                             </li>
@@ -448,64 +420,56 @@
                                             <li>
                                                 <div class="sec-list-item">
                                                 <div  class="col-md-8">
-                                                            <input type='text'  name="lesson_sixtheen" class="video_upload" class='uk-input' placeholder='Enter lesson'>&nbsp &nbsp &nbsp &nbsp
+                                                            <input type='text'  name="lesson_sixteen" class="video_upload" class='uk-input' placeholder='Enter lesson'>&nbsp &nbsp &nbsp &nbsp
                                                             
                                                         </div>
-                                                    <div>
                                                         <div class="btn-act">
-                                                        <button class="custom-file-upload">
-                                                            <input type='file' name="video_sixtheen" class='uk-input '>
+                                                        <label class="custom-file-upload">
+                                                            <input type='file' name="video_sixteen" class='uk-input'>
                                                             Attach Video
-                                                            </button>
-                                                        </div>
+                                                        </label>
                                                     </div>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div class="sec-list-item">
                                                 <div  class="col-md-8">
-                                                            <input type='text'  name="lesson_seventheen" class="video_upload" class='uk-input' placeholder='Enter lesson'>&nbsp &nbsp &nbsp &nbsp
+                                                            <input type='text'  name="lesson_seventeen" class="video_upload" class='uk-input' placeholder='Enter lesson'>&nbsp &nbsp &nbsp &nbsp
                                                             
                                                         </div>
-                                                    <div>
                                                         <div class="btn-act">
-                                                        <button class="custom-file-upload">
-                                                            <input type='file'  name="video_seventheen" class='uk-input '>
+                                                        <label class="custom-file-upload">
+                                                            <input type='file' name="video_seventeen" class='uk-input'>
                                                             Attach Video
-                                                            </button>
-                                                        </div>
+                                                        </label>
                                                     </div>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div class="sec-list-item">
                                                 <div  class="col-md-8">
-                                                            <input type='text'  name="lesson_eigihteen" class="video_upload" class='uk-input' placeholder='Enter lesson'>&nbsp &nbsp &nbsp &nbsp
+                                                            <input type='text'  name="lesson_eighteen" class="video_upload" class='uk-input' placeholder='Enter lesson'>&nbsp &nbsp &nbsp &nbsp
                                                             
                                                         </div>
-                                                    <div>
                                                         <div class="btn-act">
-                                                        <button class="custom-file-upload">
-                                                            <input type='file'  name="video_eighteen" class='uk-input '>
+                                                        <label class="custom-file-upload">
+                                                            <input type='file' name="video_eighteen" class='uk-input'>
                                                             Attach Video
-                                                            </button>
-                                                        </div>
+                                                        </label>
                                                     </div>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div class="sec-list-item">
                                                 <div  class="col-md-8">
-                                                            <input type='text'  name="lesson_nintheen" class="video_upload" class='uk-input' placeholder='Enter lesson'>&nbsp &nbsp &nbsp &nbsp
+                                                            <input type='text'  name="lesson_nineteen" class="video_upload" class='uk-input' placeholder='Enter lesson'>&nbsp &nbsp &nbsp &nbsp
                                                             
                                                         </div>
-                                                    <div>
                                                         <div class="btn-act">
-                                                        <button class="custom-file-upload">
-                                                            <input type='file'  name="video_nintheen" class='uk-input '>
+                                                        <label class="custom-file-upload">
+                                                            <input type='file' name="video_nineteen" class='uk-input'>
                                                             Attach Video
-                                                            </button>
-                                                        </div>
+                                                        </label>
                                                     </div>
                                                 </div>
                                             </li>
@@ -515,13 +479,11 @@
                                                             <input type='text'  name="lesson_twenty" class="video_upload" class='uk-input' placeholder='Enter lesson'>&nbsp &nbsp &nbsp &nbsp
                                                             
                                                         </div>
-                                                    <div>
                                                         <div class="btn-act">
-                                                        <button class="custom-file-upload">
-                                                            <input type='file'  name="video_twenty" class='uk-input '>
+                                                        <label class="custom-file-upload">
+                                                            <input type='file' name="video_twenty" class='uk-input'>
                                                             Attach Video
-                                                            </button>
-                                                        </div>
+                                                        </label>
                                                     </div>
                                                 </div>
                                             </li>
@@ -550,13 +512,11 @@
                                                             <input type='text' name="lesson_twenty_one" class="video_upload" class='uk-input' placeholder='Enter lesson'>&nbsp &nbsp &nbsp &nbsp
                                                             
                                                         </div>
-                                                    <div>
                                                         <div class="btn-act">
-                                                        <button class="custom-file-upload">
-                                                            <input type='file' name="video_twenty_one" class='uk-input '>
+                                                        <label class="custom-file-upload">
+                                                            <input type='file' name="video_twenty_one" class='uk-input'>
                                                             Attach Video
-                                                            </button>
-                                                        </div>
+                                                        </label>
                                                     </div>
                                                 </div>
                                             </li>
@@ -566,13 +526,11 @@
                                                             <input type='text' name="lesson_twenty_two" class="video_upload" class='uk-input' placeholder='Enter lesson'>&nbsp &nbsp &nbsp &nbsp
                                                             
                                                         </div>
-                                                    <div>
                                                         <div class="btn-act">
-                                                        <button class="custom-file-upload">
-                                                            <input type='file' name="video_twenty_two" class='uk-input '>
+                                                        <label class="custom-file-upload">
+                                                            <input type='file' name="video_twenty_two" class='uk-input'>
                                                             Attach Video
-                                                            </button>
-                                                        </div>
+                                                        </label>
                                                     </div>
                                                 </div>
                                             </li>
@@ -582,13 +540,11 @@
                                                             <input type='text' name="lesson_twenty_three" class="video_upload" class='uk-input' placeholder='Enter lesson'>&nbsp &nbsp &nbsp &nbsp
                                                             
                                                         </div>
-                                                    <div>
                                                         <div class="btn-act">
-                                                        <button class="custom-file-upload">
-                                                            <input type='file' name="video_twenty_three" class='uk-input '>
+                                                        <label class="custom-file-upload">
+                                                            <input type='file' name="video_twenty_three" class='uk-input'>
                                                             Attach Video
-                                                            </button>
-                                                        </div>
+                                                        </label>
                                                     </div>
                                                 </div>
                                             </li>
@@ -598,13 +554,11 @@
                                                             <input type='text' name="lesson_twenty_four" class="video_upload" class='uk-input' placeholder='Enter lesson'>&nbsp &nbsp &nbsp &nbsp
                                                             
                                                         </div>
-                                                    <div>
                                                         <div class="btn-act">
-                                                        <button class="custom-file-upload">
-                                                            <input type='file' name="video_twenty_four" class='uk-input '>
+                                                        <label class="custom-file-upload">
+                                                            <input type='file' name="video_twenty_four" class='uk-input'>
                                                             Attach Video
-                                                            </button>
-                                                        </div>
+                                                        </label>
                                                     </div>
                                                 </div>
                                             </li>
@@ -613,13 +567,11 @@
                                                 <div  class="col-md-8">
                                                             <input type='text' name="lesson_twenty_five" class="video_upload" class='uk-input' placeholder='Enter lesson'>&nbsp &nbsp &nbsp &nbsp
                                                         </div>
-                                                    <div>
                                                         <div class="btn-act">
-                                                        <button class="custom-file-upload">
-                                                            <input type='file' name="video_twenty_five" class='uk-input '>
+                                                        <label class="custom-file-upload">
+                                                            <input type='file' name="video_twenty_five" class='uk-input'>
                                                             Attach Video
-                                                            </button>
-                                                        </div>
+                                                        </label>
                                                     </div>
                                                 </div>
                                             </li>
@@ -648,13 +600,11 @@
                                                             <input type='text' name="lesson_twenty_six" class="video_upload" class='uk-input' placeholder='Enter lesson'>&nbsp &nbsp &nbsp &nbsp
                                                             
                                                         </div>
-                                                    <div>
                                                         <div class="btn-act">
-                                                        <button class="custom-file-upload">
-                                                            <input type='file' name="video_twenty_six" class='uk-input '>
+                                                        <label class="custom-file-upload">
+                                                            <input type='file' name="video_twenty_six" class='uk-input'>
                                                             Attach Video
-                                                            </button>
-                                                        </div>
+                                                        </label>
                                                     </div>
                                                 </div>
                                             </li>
@@ -664,13 +614,11 @@
                                                             <input type='text' name="lesson_twenty_seven" class="video_upload" class='uk-input' placeholder='Enter lesson'>&nbsp &nbsp &nbsp &nbsp
                                                             
                                                         </div>
-                                                    <div>
                                                         <div class="btn-act">
-                                                        <button class="custom-file-upload">
-                                                            <input type='file' name="video_twenty_seven" class='uk-input '>
+                                                        <label class="custom-file-upload">
+                                                            <input type='file' name="video_twenty_seven" class='uk-input'>
                                                             Attach Video
-                                                            </button>
-                                                        </div>
+                                                        </label>
                                                     </div>
                                                 </div>
                                             </li>
@@ -680,13 +628,11 @@
                                                             <input type='text' name="lesson_twenty_eight" class="video_upload" class='uk-input' placeholder='Enter lesson'>&nbsp &nbsp &nbsp &nbsp
                                                             
                                                         </div>
-                                                    <div>
                                                         <div class="btn-act">
-                                                        <button class="custom-file-upload">
-                                                            <input type='file' name="video_twenty_eight" class='uk-input '>
+                                                        <label class="custom-file-upload">
+                                                            <input type='file' name="video_twenty_eight" class='uk-input'>
                                                             Attach Video
-                                                            </button>
-                                                        </div>
+                                                        </label>
                                                     </div>
                                                 </div>
                                             </li>
@@ -696,13 +642,11 @@
                                                             <input type='text' name="lesson_twenty_nine" class="video_upload" class='uk-input' placeholder='Enter lesson'>&nbsp &nbsp &nbsp &nbsp
                                                             
                                                         </div>
-                                                    <div>
                                                         <div class="btn-act">
-                                                        <button class="custom-file-upload">
-                                                            <input type='file' name="video_twenty_nine" class='uk-input '>
+                                                        <label class="custom-file-upload">
+                                                            <input type='file' name="video_twenty_nine" class='uk-input'>
                                                             Attach Video
-                                                            </button>
-                                                        </div>
+                                                        </label>
                                                     </div>
                                                 </div>
                                             </li>
@@ -712,13 +656,11 @@
                                                             <input type='text' name="lesson_thirty" class="video_upload" class='uk-input' placeholder='Enter lesson'>&nbsp &nbsp &nbsp &nbsp
                                                             
                                                         </div>
-                                                    <div>
                                                         <div class="btn-act">
-                                                        <button class="custom-file-upload">
-                                                            <input type='file' name="video_thirty" class='uk-input '>
+                                                        <label class="custom-file-upload">
+                                                            <input type='file' name="video_thirty" class='uk-input'>
                                                             Attach Video
-                                                            </button>
-                                                        </div>
+                                                        </label>
                                                     </div>
                                                 </div>
                                             </li>
@@ -747,13 +689,11 @@
                                                             <input type='text' name="lesson_thirty_one" class="video_upload" class='uk-input' placeholder='Enter lesson'>&nbsp &nbsp &nbsp &nbsp
                                                             
                                                         </div>
-                                                    <div>
                                                         <div class="btn-act">
-                                                        <button class="custom-file-upload">
-                                                            <input type='file' name="video_thirty_one" class='uk-input '>
+                                                        <label class="custom-file-upload">
+                                                            <input type='file' name="video_thirty_one" class='uk-input'>
                                                             Attach Video
-                                                            </button>
-                                                        </div>
+                                                        </label>
                                                     </div>
                                                 </div>
                                             </li>
@@ -763,13 +703,11 @@
                                                             <input type='text' name="lesson_thirty_two" class="video_upload" class='uk-input' placeholder='Enter lesson'>&nbsp &nbsp &nbsp &nbsp
                                                             
                                                         </div>
-                                                    <div>
                                                         <div class="btn-act">
-                                                        <button class="custom-file-upload">
-                                                            <input type='file' name="video_thirty_two" class='uk-input '>
+                                                        <label class="custom-file-upload">
+                                                            <input type='file' name="video_thirty_two" class='uk-input'>
                                                             Attach Video
-                                                            </button>
-                                                        </div>
+                                                        </label>
                                                     </div>
                                                 </div>
                                             </li>
@@ -779,13 +717,11 @@
                                                             <input type='text' name="lesson_thirty_three" class="video_upload" class='uk-input' placeholder='Enter lesson'>&nbsp &nbsp &nbsp &nbsp
                                                             
                                                         </div>
-                                                    <div>
                                                         <div class="btn-act">
-                                                        <button class="custom-file-upload">
-                                                            <input type='file' name="video_thirty_three" class='uk-input '>
+                                                        <label class="custom-file-upload">
+                                                            <input type='file' name="video_thirty_three" class='uk-input'>
                                                             Attach Video
-                                                            </button>
-                                                        </div>
+                                                        </label>
                                                     </div>
                                                 </div>
                                             </li>
@@ -795,13 +731,11 @@
                                                             <input type='text' name="lesson_thirty_four" class="video_upload" class='uk-input' placeholder='Enter lesson'>&nbsp &nbsp &nbsp &nbsp
                                                             
                                                         </div>
-                                                    <div>
                                                         <div class="btn-act">
-                                                        <button class="custom-file-upload">
-                                                            <input type='file' name="video_thirty_four" class='uk-input '>
+                                                        <label class="custom-file-upload">
+                                                            <input type='file' name="video_thirty_four" class='uk-input'>
                                                             Attach Video
-                                                            </button>
-                                                        </div>
+                                                        </label>
                                                     </div>
                                                 </div>
                                             </li>
@@ -811,13 +745,11 @@
                                                             <input type='text' name="lesson_thirty_five" class="video_upload" class='uk-input' placeholder='Enter lesson'>&nbsp &nbsp &nbsp &nbsp
                                                             
                                                         </div>
-                                                    <div>
                                                         <div class="btn-act">
-                                                        <button class="custom-file-upload">
-                                                            <input type='file' name="video_thirty_five" class='uk-input '>
+                                                        <label class="custom-file-upload">
+                                                            <input type='file' name="video_thirty_" class='uk-input'>
                                                             Attach Video
-                                                            </button>
-                                                        </div>
+                                                        </label>
                                                     </div>
                                                 </div>
                                             </li>
@@ -845,16 +777,15 @@
                     <div class="row justify-content-center">
                         <div class="col-xl-9">
                             <div class="form-group row mb-3">
-                                <div class="col-md-9">
-                                <!-- <div>
+                                <div class="col-md-12">
+                                <div class="">
                                     <div class="btn-act">
-                                        <label class="custom-file-upload">
-                                            <input type='file' class='uk-input'>
-                                            <br>
-                                                Attach Video
+                                        <label class="custom-file-upload-2">
+                                            <input type='file' name="video_six" class='uk-input'>
+                                                upload preview image
                                         </label>
-                                    </div>
-                                </div> -->
+                                        </div>
+                                     </div>
                             </div>
                         </div> <!-- end col -->
                         
