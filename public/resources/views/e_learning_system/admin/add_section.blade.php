@@ -79,7 +79,7 @@
                                                 <div class="input-box">
                                                     <label class="label-text">Video URL<span class="primary-color-2 ml-1">*</span></label>
                                                     <div class="form-group">
-                                                        <input class="form-control" type="text" name="video_url" placeholder="Video URL">
+                                                        <input class="form-control" type="text" name="lesson_video_url" placeholder="Video URL">
                                                         <span class="la la-link input-icon"></span>
                                                     </div>
                                                 </div>
@@ -91,7 +91,7 @@
                                                     <div class="form-group mb-0">
                                                         <div class="upload-btn-box course-video-btn">
                                                             <form action="#" method="post" enctype="multipart/form-data">
-                                                                <input type="file" name="video_upload" class="filer_input" multiple="multiple">
+                                                                <input type="file" name="lesson_video" class="filer_input" multiple="multiple">
                                                             </form>
                                                         </div>
                                                     </div>

@@ -32,11 +32,11 @@
 </head>
 <body>
 <!-- start cssload-loader -->
-<div class="preloader">
+<!-- <div class="preloader">
     <div class="loader">
         <img  class="loader" src="asset_home/images/logo.png"/>
     </div>
-</div>
+</div> -->
 <!-- end cssload-loader -->
 
 

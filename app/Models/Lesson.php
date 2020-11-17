@@ -9,8 +9,9 @@ class Lesson extends Model
 {
     use HasFactory;
     protected $fillable = [
-        'lesson_name',
-        'lesson_article',
+        'lesson',
+        'video_name',
+        'lesson_video_url',
         'lesson_video',
         'course_id',
         'section_id',

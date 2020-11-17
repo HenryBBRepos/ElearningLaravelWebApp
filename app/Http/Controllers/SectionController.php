@@ -12,7 +12,7 @@ class SectionController extends Controller
     private $lesson_fillable;
     private $model;
 
-    public function __constract(Section $model, Lesson $lesson)
+    public function __construct(Section $model, Lesson $lesson)
     {
         $this->section_fillable = $model->getFillable();
         $this->lesson_fillable = $lesson->getFillable();
@@ -21,17 +21,18 @@ class SectionController extends Controller
 
     public function store(Request $request)
     {
-        $sec_req = new Request();
-        $sec_req->merge([
-            'section_name'=>$request->section
-        ]);
-        $lesson_req = new Request();
-        $lesson_req->merge([
-            'lesson_name'=>$request->lesson,
-        ]);
-        $section = Section::firstOrCreate($sec_req->all());
+        // $sec_req = new Request();
+        // $sec_req->merge([
+        //     'section_name'=>$request->section
+        // ]);
+        // $lesson_req = new Request();
+        // $lesson_req->merge([
+        //     'lesson_name'=>$request->lesson,
+        // ]);
+        $fillable = array_diff($this->lesson_fillable,['lesson_video']);
+        $section = Section::firstOrCreate($request->only($this->section_fillable));
         if ($section != null) {
-            $lesson = $section->lessons()->create($lesson_req->all());
+            $lesson = $section->lessons()->create($request->only($fillable));
             if ($lesson) {
                 $img = $this->uploadOne($request);
                 if ($section->lessons()->where('id', $lesson->id)->update(['lesson_video' => $img])) {
@@ -46,8 +47,8 @@ class SectionController extends Controller
 
     public function uploadOne(Request $request, $folder = 'images',  $disk = 'public')
     {
-        $filename = "wolosys_img-" . random_int(3000, 10000000);
-        $file =  $request->file('video_upload')[0] ;
+        $filename = "wolosys_video-" . random_int(3000, 10000000);
+        $file =  $request->file('lesson_video')[0] ;
         return $file->storeAs($folder, $filename . "." . $file->getClientOriginalExtension());
     }
 }

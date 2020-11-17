@@ -11,7 +11,7 @@
                     <div class="breadcrumb-content breadcrumb-detail-content">
                         <div class="section-heading">
                             <span class="badge-label">Complete Course</span>
-                            <h2 class="section__title mt-1">{{$course -> course_name}}</h2>
+                            <h2 class="section__title mt-1">iugjhguhghng</h2>
                             <h4 class="widget-title mt-2">Statistics and Probability: Frequency Table, Tally, median, Mode, Means, Standard Deviation</h4>
                         </div>
                         <ul class="breadcrumb__list mt-2">
