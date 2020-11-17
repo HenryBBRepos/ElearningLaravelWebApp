@@ -37,11 +37,8 @@ class CourseController extends Controller
 
     public function store(Request $request)
     {
-
         if($course = Course::create($request->only($this->course_fillable))){
-            foreach ($request->section_names as $section){
-                $course->sections->create($request->only($this->section_fillable));
-            }
+           return redirect()->back()->with(['status'=>'success','status_code'=>200,'data'=>$course]);
         }
 
 

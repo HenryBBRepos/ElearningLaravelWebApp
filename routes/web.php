@@ -51,8 +51,10 @@ Route::get('/dashboard_teacher', 'Pages\PagesController@dashboard_teacher');
 
 
 //admin
-Route::get('/course_upload', 'Pages\PagesController@course_upload');
-Route::post('store', 'Course\CourseController@store')->name('store');
+//Route::get('Pages\PagesController@course_upload', '/course_upload');
+Route::post('store', 'Course\CourseController@store')->name('course.store');
+Route::post('/add-section', 'SectionController@store')->name('section.store');
+
 
 Route::get('/add-course', 'Pages\PagesController@add_course');
 Route::get('/add-section', 'Pages\PagesController@add_section');

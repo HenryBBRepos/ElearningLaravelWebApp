@@ -5,13 +5,15 @@
 
 <div class="dashboard-content-wrap">
         <div class="container-fluid">
-           
-        
+
+
             <div class="row mt-5">
                 <div class="col-lg-12">
                     <h3 class="widget-title">Submit Course</h3>
                 </div>
             </div>
+            <form action="{{route('section.store')}}" method="post" enctype="multipart/form-data">
+                @csrf
             <div class="row mt-5">
                 <div class="col-lg-12">
                     <div class="card-box-shared">
@@ -21,7 +23,7 @@
                         <div class="card-box-shared-body">
                             <div class="user-form">
                                 <div class="contact-form-action">
-                                    <form method="post">
+
                                         <div class="row">
                                             <div class="col-lg-12">
                                                 <div class="row">
@@ -45,13 +47,13 @@
                                                     </div>
                                                 </div>
                                                     </div>
-                                                   
-                                                    
+
+
                                                 </div>
                                             </div><!-- end col-lg-12 -->
-                                        
+
                                         </div><!-- end row -->
-                                    </form>
+
                                 </div>
                             </div>
                         </div><!-- end card-box-shared-body -->
@@ -63,7 +65,6 @@
                         <div class="card-box-shared-body">
                             <div class="user-form">
                                 <div class="contact-form-action">
-                                    <form method="post">
                                         <div class="row">
                                             <div class="col-lg-4 col-sm-6">
                                                 <div class="input-box">
@@ -74,7 +75,7 @@
                                                     </div>
                                                 </div>
                                             </div><!-- end col-lg-4 -->
-                                          
+
                                             <div class="col-lg-4 col-sm-6">
                                                 <div class="input-box">
                                                     <label class="label-text">Video URL<span class="primary-color-2 ml-1">*</span></label>
@@ -90,15 +91,15 @@
                                                     <label class="label-text">Lesson Video<span class="primary-color-2 ml-1">*</span></label>
                                                     <div class="form-group mb-0">
                                                         <div class="upload-btn-box course-video-btn">
-                                                            <form action="#" method="post" enctype="multipart/form-data">
+
                                                                 <input type="file" name="video_upload" class="filer_input" multiple="multiple">
-                                                            </form>
+
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div><!-- end col-lg-4 -->
                                         </div><!-- end row -->
-                                    </form>
+
                                 </div>
                             </div>
                         </div><!-- end card-box-shared-body -->
@@ -110,6 +111,7 @@
                     <button class="theme-btn" type="submit">submit now</button>
                 </div>
             </div><!-- end row -->
+            </form>
             <div class="row">
                 <div class="col-lg-12">
                     <div class="copyright-content pt-0 pb-4 border-top-0 text-center">
