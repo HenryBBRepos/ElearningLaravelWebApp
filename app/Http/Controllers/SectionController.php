@@ -6,7 +6,6 @@ use App\Models\Lesson;
 use App\Models\Section;
 use Illuminate\Http\Request;
 use Illuminate\Http\UploadedFile;
-
 class SectionController extends Controller
 {
     private $section_fillable;
@@ -22,13 +21,20 @@ class SectionController extends Controller
 
     public function store(Request $request)
     {
-//        return $request;
-        $section = Section::firstOrCreate($request->only($this->section_fillable));
+        $sec_req = new Request();
+        $sec_req->merge([
+            'section_name'=>$request->section
+        ]);
+        $lesson_req = new Request();
+        $lesson_req->merge([
+            'lesson_name'=>$request->lesson,
+        ]);
+        $section = Section::firstOrCreate($sec_req->all());
         if ($section != null) {
-            $lesson = $section->lessons->create($this->lesson_fillable);
+            $lesson = $section->lessons()->create($lesson_req->all());
             if ($lesson) {
-                $img = $this->saveOneImage($request, 'video_upload');
-                if ($section->lessons->where('id', $lesson->id)->update(['lesson_video' => $img])) {
+                $img = $this->uploadOne($request);
+                if ($section->lessons()->where('id', $lesson->id)->update(['lesson_video' => $img])) {
                     return redirect()->back()->with(['status' => 'success', 'status_code' => 200]);
                 }
                 return redirect()->back()->with(['status' => 'error', 'status_code' => 401]);
@@ -37,19 +43,11 @@ class SectionController extends Controller
         return redirect()->back()->with(['status' => 'error', 'status_code' => 401]);
     }
 
-    public function saveOneImage(Request $request, $key)
-    {
 
-        if ($request->has($key) && $request[$key] != null) {
-            $filename = "wolosys_img-" . random_int(3000, 10000000);
-            $img = $this->uploadOne($request[$key], 'images', $filename);
-            return $img;
-        }
-        return null;
-    }
-
-    public function uploadOne(UploadedFile $file, $folder = null, $filename = 'wolosys', $disk = 'public')
+    public function uploadOne(Request $request, $folder = 'images',  $disk = 'public')
     {
-        return $file->storeAs($folder, $filename . "." . $file->getClientOriginalExtension(), $disk);
+        $filename = "wolosys_img-" . random_int(3000, 10000000);
+        $file =  $request->file('video_upload')[0] ;
+        return $file->storeAs($folder, $filename . "." . $file->getClientOriginalExtension());
     }
 }

@@ -20,15 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54f90cb1-7c73-4a7d-968c-d8677c9d5381" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/images/wolosys_img-2919630.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Course/CourseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Course/CourseController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SectionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SectionController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Course.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Course.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_26_112450_create_courses_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_10_26_112450_create_courses_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/e_learning_system/admin/add_course.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/e_learning_system/admin/add_course.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/e_learning_system/admin/add_section.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/e_learning_system/admin/add_section.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -248,7 +243,7 @@
       <workItem from="1605483732773" duration="4528000" />
       <workItem from="1605545065681" duration="1143000" />
       <workItem from="1605599973522" duration="7176000" />
-      <workItem from="1605615591564" duration="754000" />
+      <workItem from="1605615591564" duration="6514000" />
     </task>
     <servers />
   </component>
