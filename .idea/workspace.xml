@@ -23,9 +23,20 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Course/CourseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Course/CourseController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SectionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SectionController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Course.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Course.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Lesson.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Lesson.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Section.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Section.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_26_112450_create_courses_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_10_26_112450_create_courses_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_11_13_165555_create_sections_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_11_13_165555_create_sections_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_11_13_165556_create_lessons_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_11_13_165556_create_lessons_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/resources/views/e_learning_system/admin/add_course.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/views/e_learning_system/admin/add_course.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/resources/views/e_learning_system/admin/add_section.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/views/e_learning_system/admin/add_section.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/e_learning_system/admin/add_course.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/e_learning_system/admin/add_course.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/e_learning_system/admin/add_section.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/e_learning_system/admin/add_section.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/e_learning_system/student/lesson_detail.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/e_learning_system/student/lesson_detail.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layout/app_lesson.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/app_lesson.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layout/app_lesson_detail.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/app_lesson_detail.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -246,7 +257,7 @@
       <workItem from="1605545065681" duration="1143000" />
       <workItem from="1605599973522" duration="7176000" />
       <workItem from="1605615591564" duration="7170000" />
-      <workItem from="1605643490339" duration="5966000" />
+      <workItem from="1605643490339" duration="8150000" />
     </task>
     <servers />
   </component>
@@ -282,6 +293,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1603215905222" />
+    <state x="321" y="130" key="MultipleFileMergeDialog" timestamp="1605692880621">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="321" y="130" key="MultipleFileMergeDialog/0.0.1366.738@0.0.1366.738" timestamp="1605692880621" />
     <state x="517" y="287" key="NewPhpFileDialog" timestamp="1603898881692">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

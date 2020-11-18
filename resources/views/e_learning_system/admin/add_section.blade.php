@@ -92,7 +92,7 @@
                                                     <div class="form-group mb-0">
                                                         <div class="upload-btn-box course-video-btn">
 
-                                                                <input type="file" name="video_upload" class="filer_input">
+                                                                <input type="file" name="lesson_video" class="filer_input">
 
                                                         </div>
                                                     </div>

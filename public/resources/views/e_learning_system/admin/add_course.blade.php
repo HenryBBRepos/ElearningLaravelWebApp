@@ -94,8 +94,6 @@
                                                                     <option value="2">Integrated Science</option>
                                                                     <option value="2">Chemistry</option> 
                                                                     <option value="2">Economics</option>                                                                    
-                                                                   
-                                                                    
                                                                 </select>
                                                             </div>
                                                         </div>

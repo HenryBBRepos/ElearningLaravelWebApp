@@ -57,7 +57,7 @@ Route::post('/add-section', 'SectionController@store')->name('section.store');
 
 
 Route::get('/add-course', 'Pages\PagesController@add_course');
-Route::get('/add-section', 'Pages\PagesController@add_section');
+Route::get('/add-section', 'Pages\PagesController@add_section')->name("add_section");
 
 
 Route::group(['prefix' => 'course', 'namespace' => 'Course'], function () {

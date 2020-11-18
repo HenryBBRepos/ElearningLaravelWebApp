@@ -4,7 +4,7 @@
 
 
 <div class="dashboard-content-wrap">
-    <form action="{{route('course.store')}}" method="post">
+    <form action="{{route('course.store')}}" method="post" enctype="multipart/form-data">
         <div class="container-fluid">
             @csrf
 
@@ -25,7 +25,7 @@
                             <div class="card-box-shared-body">
                                 <div class="user-form">
                                     <div class="contact-form-action">
-                                        <form method="post">
+
                                             <div class="row">
                                                 <div class="col-lg-6 col-sm-6">
                                                     <div class="input-box">
@@ -98,8 +98,6 @@
                                                                         <option value="2">Integrated Science</option>
                                                                         <option value="2">Chemistry</option>
                                                                         <option value="2">Economics</option>
-
-
                                                                     </select>
                                                                 </div>
                                                             </div>
@@ -131,15 +129,14 @@
                                                         <label class="label-text">Upload an Image<span class="primary-color-2 ml-1">*</span></label>
                                                         <div class="form-group mb-0">
                                                             <div class="upload-btn-box course-photo-btn">
-                                                                <form action="#" method="post" enctype="multipart/form-data">
-                                                                    <input type="file" name="course_image" class="filer_input" multiple="multiple">
-                                                                </form>
+
+                                                                    <input type="file" name="course_image" class="filer_input">
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div><!-- end col-lg-12 -->
                                             </div><!-- end row -->
-                                        </form>
+
                                     </div>
                                 </div>
                             </div><!-- end card-box-shared-body -->

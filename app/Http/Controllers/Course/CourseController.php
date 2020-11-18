@@ -12,13 +12,10 @@ use Illuminate\Http\UploadedFile;
 class CourseController extends Controller
 {
    private $course_fillable ;
-   private $section_fillable ;
-   private $lesson_fillable ;
-    public function __construct(Course $course,Section $section,Lesson $lesson)
+
+    public function __construct(Course $course)
     {
         $this->course_fillable =$course->getFillable();
-        $this->section_fillable =$section->getFillable();
-        $this->lesson_fillable =$lesson->getFillable();
     }
 
     //
@@ -37,8 +34,19 @@ class CourseController extends Controller
 
     public function store(Request $request)
     {
-        if($course = Course::create($request->only($this->course_fillable))){
-           return redirect()->back()->with(['status'=>'success','status_code'=>200,'data'=>$course]);
+
+        $fillable = array_diff($this->course_fillable,['course_image']);
+        if($course = Course::create($request->only($fillable))){
+            if ($course) {
+                $img = $this->uploadOne($request);
+                $course->update([
+                    'course_image'=>$img,
+                 ]);
+
+
+            }
+            return redirect()->route('add_section');
+           //return redirect()->back()->with(['status'=>'success','status_code'=>200,'data'=>$course]);
         }
 
         Course::create($request->all());
@@ -49,6 +57,16 @@ class CourseController extends Controller
     public function show($id)
     {
         return view('e_learning_system.student.lesson_detail', ['course' => Course::findOrFail($id)]);
+
+    }
+
+    public function uploadOne(Request $request, $folder = 'images',  $disk = 'public')
+    {
+
+
+        $filename = "wolosys_img-" . random_int(3000, 10000000);
+        $file =  $request->file('course_image')[0] ;
+        return $file->storeAs($folder, $filename . "." . $file->getClientOriginalExtension());
 
     }
 
