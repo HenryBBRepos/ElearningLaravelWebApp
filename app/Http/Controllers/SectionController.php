@@ -5,14 +5,13 @@ namespace App\Http\Controllers;
 use App\Models\Lesson;
 use App\Models\Section;
 use Illuminate\Http\Request;
-use Illuminate\Http\UploadedFile;
 class SectionController extends Controller
 {
     private $section_fillable;
     private $lesson_fillable;
     private $model;
 
-    public function __constract(Section $model, Lesson $lesson)
+    public function __construct(Section $model, Lesson $lesson)
     {
         $this->section_fillable = $model->getFillable();
         $this->lesson_fillable = $lesson->getFillable();
