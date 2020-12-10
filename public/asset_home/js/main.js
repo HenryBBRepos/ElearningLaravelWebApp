@@ -32,9 +32,9 @@ Author Email:   contact@techydevs.com
 (function ($) {
     "use strict";
 
-    $(".js-example-tags").select2({
-        tags: true
-    });
+    // $(".js-example-tags").select2({
+    //     tags: true
+    // });
 
     /* ======= Preloader ======= */
     $(window).on('load', function(){
